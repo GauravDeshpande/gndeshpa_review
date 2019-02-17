@@ -47,8 +47,9 @@ public class PowerSetData {
                     RandomNumber randGen = new RandomNumber();
                     int randNr;
                     for (int i = 0; i < n; i++) {
-                            do
+                            do {
                                     randNr = randGen.nextIntRand(1, n);
+                            }        
                             while (tempArray[randNr]);
                             tempArray[randNr] = true;
                             myArray[i] = randNr;
