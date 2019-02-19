@@ -51,7 +51,7 @@ public class PowerSetData {
                                     randNr = randGen.nextIntRand(1, n);
                             }        
                             while (tempArray[randNr]);
-                            tempArray[randNr] = true;
+                           
                             myArray[i] = randNr;
                     }
             } else {
